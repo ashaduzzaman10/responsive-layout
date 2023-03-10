@@ -4,10 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>responsive layout page</title>
+    <title>responsive layout page using flexbox</title>
     <link rel="stylesheet" href="./styles/main.css" />
+    <style>
+      .container {
+        border: 5px solid red;
+        margin: 10px;
+        padding: 10px;
+        background-color: black;
+      }
+      .box {
+        border: 5px solid yellow;
+        height: 500px;
+        width: 400px;
+        margin: 10px;
+        padding: 10px;
+        background-color: aqua;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    div>
+    <div class="container">
+      <div class="box">box-1</div>
+      <div class="box">box-2</div>
+      <div class="box">box-3</div>
+    </div>
   </body>
 </html>
