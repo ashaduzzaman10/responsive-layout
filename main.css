@@ -1,0 +1,43 @@
+h3 {
+  font-size: large;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 10cap;
+  border-radius: 10px;
+  background-color: rgb(123, 132, 132);
+  color: white;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: rgb(78, 96, 91);
+  justify-content: center;
+  text-align: center;
+}
+.date {
+  font-size: 700;
+  height: 70px;
+  border: 0.5px solid rgb(227, 219, 219);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  padding: 10px 10px;
+}
+.other-month {
+  background-color: rgb(159, 176, 211);
+}
+.div {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: rgb(142, 138, 138);
+  text-align: center;
+  height: 20px;
+  padding-top: 15px;
+  border: none;
+}
+
+.week {
+  border: 20px;
+  padding-bottom: 7px;
+}
